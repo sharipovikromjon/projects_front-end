@@ -21,7 +21,7 @@
     text-align: center;
 }
 /* Main */
-.section_one .brushes {
+.section_one h2 {
     font-family: Helvetica;
     font-size: 32px;
     font-weight: bold;
@@ -29,21 +29,28 @@
     background-color: mediumspringgreen;
     margin: 40px 0;
 }
+.section_one #frames {
+    background-color: lightcoral;
+}
+.section_one #paint {
+    background-color: skyblue;
+}
 .section_one .h3 {
     font-weight: bold;
     margin-top: 20px;
-    padding: 5px;
     font-size: 20px;
 }
 .section_one .paragraph {
     margin-top: 15px;
     font-size: 18px;
+    margin-bottom: 50px;
 }
 .section_one .paragraph span {
     font-family: Helvetica;
     font-weight: bold;
     color: blue;
 }
+
 
 
 
