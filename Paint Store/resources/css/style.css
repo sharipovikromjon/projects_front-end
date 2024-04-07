@@ -38,7 +38,7 @@ html {
     display: flex;
     align-items: center;
     padding: .5rem 3.75rem;
-    background-color: orange;
+    background-color: #ff8000;
   }
   
   header .logo-small {
@@ -99,6 +99,7 @@ html {
     left: 0;
     width: 100%;
     height: 100%;
+    background-color: rgba(255, 128, 0, 0.75);
   
   }
   
@@ -111,6 +112,7 @@ html {
     padding-bottom: 1.25rem;
     font-family: "Creepster", cursive;
     font-size: 8rem;
+    color: rgba(0, 0, 0, 0.7);
   
   }
   
@@ -118,6 +120,7 @@ html {
     color: white;
     line-height: 1.5;
     font-size: 1.375rem;
+    background-color: rgb(105, 105, 105);
   }
   
   @media only screen and (max-width: 820px) {
@@ -151,7 +154,7 @@ html {
     margin-bottom: 2.4375rem;
     line-height: 1;
     font-size: 2rem;
-    color: orange;
+    color: #ff8000;
   }
   
   #color-guide .color {
@@ -186,6 +189,7 @@ html {
     margin-bottom: 1.25rem;
     font-size: 1.125rem;
     font-weight: bold;
+    color: #9b9b9b;
   
   }
   
@@ -237,13 +241,13 @@ html {
   /* Red Swatches */
   
   .reds .base-color {
-    color: #ff002b;
+    color: hsl(350, 100%, 50%);
   }
   
   /* Red lightness decreases by 15 */
-  /* .reds .lightness .color-1 {
-  
-  } */
+  .reds .lightness .color-1 {
+    background-color: hsl(350, 100%, 80%);
+  }
   
   .reds .lightness .color-2 {
     background-color: hsl(350, 100%, 65%);
@@ -262,9 +266,9 @@ html {
   }
   
   /* Red saturation decreases by 15 */
-  /* .reds .saturation .color-1 {
-  
-  } */
+  .reds .saturation .color-1 {
+    background-color: hsl(350, 100%, 50%);
+  }
   
   .reds .saturation .color-2 {
     background-color: hsl(350, 85%, 50%);
@@ -283,36 +287,36 @@ html {
   }
   
   /* Red hue increases by 15 */
-  /* .reds .hue .color-1 {
-  
-  } */
+  .reds .hue .color-1 {
+    background-color: hsl(65, 100%, 50%);
+  }
   
   .reds .hue .color-2 {
-    background-color: hsl(335, 100%, 50%);
+    background-color: hsl(50, 100%, 50%);
   }
   
   .reds .hue .color-3 {
-    background-color: hsl(350, 100%, 50%);
+    background-color: hsl(35, 100%, 50%);
   }
   
   .reds .hue .color-4 {
-    background-color: hsl(5, 100%, 50%);
+    background-color: hsl(20, 100%, 50%);
   }
   
   .reds .hue .color-5 {
-    background-color: hsl(20, 100%, 50%);
+    background-color: hsl(5, 100%, 50%);
   }
   
   /* Green Swatches */
   
   .greens .base-color {
-    color: #00ff2a;
+    color: hsl(130, 100%, 50%);
   }
   
   /* Green lightness decreases by 20 */
-  /* .greens .lightness .color-1 {
-  
-  } */
+  .greens .lightness .color-1 {
+    background-color: hsl(103, 100%, 50%);
+  }
   
   .greens .lightness .color-2 {
     background-color: hsl(103, 100%, 70%);
@@ -327,13 +331,13 @@ html {
   }
   
   .greens .lightness .color-5 {
-    background-color: hsl(104, 100%, 10%);
+    background-color: hsl(103, 100%, 10%);
   }
   
   /* Green saturation decreases by 20 */
-  /* .greens .saturation .color-1 {
-  
-  } */
+  .greens .saturation .color-1 {
+    background-color: hsl(130, 100%, 50%);
+  }
   
   .greens .saturation .color-2 {
     background-color: hsl(130, 80%, 50%);
@@ -348,13 +352,13 @@ html {
   }
   
   .greens .saturation .color-5 {
-    background-color: hsl(131, 20%, 50%);
+    background-color: hsl(130, 20%, 50%);
   }
   
   /* Green hue increases by 22 */
-  /* .greens .hue .color-1 {
-  
-  } */
+  .greens .hue .color-1 {
+    background-color: hsl(86, 100%, 50%);
+  }
   
   .greens .hue .color-2 {
     background-color: hsl(108, 100%, 50%);
@@ -375,13 +379,13 @@ html {
   /* Blue Swatches */
   
   .blues .base-color {
-    color: #0055ff;
+    color: hsl(220, 100%, 50%);
   }
   
   /* Blue lightness decreases by 20 */
-  /* .blues .lightness .color-1 {
-  
-  } */
+  .blues .lightness .color-1 {
+    background-color: hsl(220, 100%, 90%);
+  }
   
   .blues .lightness .color-2 {
     background-color: hsl(220, 100%, 70%);
@@ -400,9 +404,9 @@ html {
   }
   
   /* Blue saturation decreases by 20 */
-  /* .blues .saturation .color-1 {
-  
-  } */
+  .blues .saturation .color-1 {
+    background-color: hsl(220, 100%, 50%);
+  }
   
   .blues .saturation .color-2 {
     background-color: hsl(220, 80%, 50%);
@@ -421,9 +425,9 @@ html {
   }
   
   /* Blue hue decreases by 20 */
-  /* .blues .hue .color-1 {
-  
-  } */
+  .blues .hue .color-1 {
+    background-color: hsl(260, 100%, 50%);
+  }
   
   .blues .hue .color-2 {
     background-color: hsl(240, 100%, 50%);
@@ -462,6 +466,7 @@ html {
     left: 0;
     width: 100%;
     height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
   
   }
   
@@ -482,7 +487,7 @@ html {
   footer .button {
     padding: 1.25rem 3.75rem;
     border-radius: 4px;
-    background-color: orange;
+    background-color: #ff8000;
   }
   
   @media only screen and (max-width: 560px) {
