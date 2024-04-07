@@ -8,47 +8,47 @@
 .container {
     margin: 20px;
 }
+h1,
+h2,
+p,
+span {
+    font-family: Helvetica;
+}
+
+h1,
+h2,
+h3,
+span {
+    font-weight: bold;
+}
+
 
 /* Header */
 .navigation h1 {
     margin: 30px 0;
     margin-bottom: 100px;
-    font-family: Helvetica;
     font-size: 100px;
-    font-weight: bold;
     color: khaki;
     background-image: url('https://content.codecademy.com/courses/freelance-1/unit-2/pattern.jpeg');
     text-align: center;
 }
 /* Main */
 .section_one h2 {
-    font-family: Helvetica;
     font-size: 32px;
-    font-weight: bold;
     color: white;
+    margin: 20px 0;
+}
+.section_one p span {
+    color: blue;
+}
+.section_one #brushes {
     background-color: mediumspringgreen;
-    margin: 40px 0;
 }
 .section_one #frames {
     background-color: lightcoral;
 }
 .section_one #paint {
     background-color: skyblue;
-}
-.section_one .h3 {
-    font-weight: bold;
-    margin-top: 20px;
-    font-size: 20px;
-}
-.section_one .paragraph {
-    margin-top: 15px;
-    font-size: 18px;
-    margin-bottom: 50px;
-}
-.section_one .paragraph span {
-    font-family: Helvetica;
-    font-weight: bold;
-    color: blue;
 }
 
 
