@@ -1,7 +1,7 @@
 # My Front-end Projects
 
 **Description:**
-A project to practice HTML, CSS, JavaScript, React 
+Projects to practice HTML, CSS, JavaScript, React 
 
 **Technologies Used:**
 * HTML5
