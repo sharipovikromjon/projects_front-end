@@ -1,0 +1,21 @@
+/* link, visited, hover, active */
+.nav-link:hover {
+    background-color: rgb(125, 209, 255);
+    font-weight: 700;
+    color: white;
+    border-radius: 50px;
+}
+.logo:hover {
+    color: rgb(55, 55, 55);
+    font-weight: 800;
+}
+.nav-link:active {
+    background-color: gray;
+}
+.logo:active {
+    color: whitesmoke;
+}
+.nav-link:visited {
+    background-color: rgb(116, 255, 116);
+    color: black;
+}
