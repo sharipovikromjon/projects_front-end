@@ -1,4 +1,4 @@
-# My Front-end Projects
+# Front-end Projects
 
 **Description:**
 Projects to practice HTML, CSS, JavaScript, React 
